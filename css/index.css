@@ -1,0 +1,38 @@
+/* Combined CSS for a navigation bar with transparency */
+.navbar {
+    background-color: rgba(51, 51, 51, 0.5); /* Background color with reduced opacity */
+    backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+}
+
+.navbar-brand img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: rgba(51, 51, 51, 0.7); /* Background color with reduced opacity for the dropdown menu */
+    backdrop-filter: blur(10px); /* Adds a blur effect to the dropdown menu background */
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.btn-warning {
+    background-color: yellow;
+    color: #333;
+    padding: 10px 20px;
+}
