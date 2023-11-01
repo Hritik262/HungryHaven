@@ -1,0 +1,223 @@
+{
+    "1": {
+        "restaurant_name": "Spice Palace",
+        "image_source": "https://example.com/spicepalace.jpg",
+        "price_range": "$$",
+        "cuisine_type": "North Indian",
+        "menu": [
+            {
+                "dish_name": "Butter Chicken",
+                "price": 14.99,
+                "image_source": "img/butterChicken.webp"
+            },
+            {
+                "dish_name": "Aloo Gobi",
+                "price": 11.99,
+                "image_source": "img/aaloGobi.webp"
+            },
+            {
+                "dish_name": "Paneer Tikka",
+                "price": 10.99,
+                "image_source": "img/paneerTikka.webp"
+            },
+            {
+                "dish_name": "Malai Kofta",
+                "price": 12.99,
+                "image_source": "img/malaiKofta.jpeg"
+            },
+            {
+                "dish_name": "Chicken Tikka",
+                "price": 15.99,
+                "image_source": "img/chickenTikkaMasala.webp"
+            },
+            {
+                "dish_name": "Vegetable Biryani",
+                "price": 12.99,
+                "image_source": "img/vegBiryani.jpeg"
+            },
+            {
+                "dish_name": "Tandoori Roti",
+                "price": 2.99,
+                "image_source": "img/tandooriRoti.jpeg"
+            },
+            {
+                "dish_name": "Samosas",
+                "price": 5.99,
+                "image_source": "img/samosa.jpeg"
+            },
+            {
+                "dish_name": "Dal Makhani",
+                "price": 9.99,
+                "image_source": "img/dalMakhni.jpeg"
+            },
+            {
+                "dish_name": "Chana Masala",
+                "price": 10.99,
+                "image_source": "img/chanaMasala.jpeg"
+            },
+            {
+                "dish_name": "Rogan Josh",
+                "price": 16.99,
+                "image_source": "img/roganJosh.jpeg"
+            },
+            {
+                "dish_name": "Naan",
+                "price": 2.99,
+                "image_source": "img/naan.jpeg"
+            },
+            {
+                "dish_name": "Mango Lassi",
+                "price": 4.99,
+                "image_source": "img/mangoLassi.jpeg"
+            },
+            {
+                "dish_name": "Gulab Jamun",
+                "price": 3.99,
+                "image_source": "img/gulabJamun.jpeg"
+            },
+            {
+                "dish_name": "Pakoras",
+                "price": 6.99,
+                "image_source": "img/pakora.jpeg"
+            },
+            {
+                "dish_name": "Tandoori Salmon",
+                "price": 18.99,
+                "image_source": "img/tandooriSalmon.jpeg"
+            },
+            {
+                "dish_name": "Baingan Bharta",
+                "price": 10.99,
+                "image_source": "img/bainganBharta.jpeg"
+            },
+            {
+                "dish_name": "Mutton Biryani",
+                "price": 17.99,
+                "image_source": "img/muttonBiryani.jpeg"
+            },
+            {
+                "dish_name": "Pulao Rice",
+                "price": 8.99,
+                "image_source": "img/pulaoRice.jpeg"
+            },
+            {
+                "dish_name": "Papadums",
+                "price": 2.99,
+                "image_source": "img/papadums.jpeg"
+            },
+            {
+                "dish_name": "Raita",
+                "price": 3.99,
+                "image_source": "img/raita.jpeg"
+            }
+        ]
+    },
+    "2": {
+        "restaurant_name": "Taste Of India",
+        "image_source": "https://example.com/tasteofindia.jpg",
+        "price_range": "$$",
+        "cuisine_type": "Indian, Chinese, Italian",
+        "menu": [
+            {
+                "dish_name": "Butter Chicken",
+                "price": 14.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ds4jg6qnsxx76euaengi"
+            },
+            {
+                "dish_name": "Paneer Tikka",
+                "price": 10.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/a19b443af1f23cb3317c82648a66f954"
+            },
+            {
+                "dish_name": "Manchurian",
+                "price": 15.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/078a6fab9467a46ec14fe524fa28f3ab"
+            },
+            {
+                "dish_name": "Hakka Noodles",
+                "price": 12.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/pjq8d4iwndoghauovqmo"
+            },
+            {
+                "dish_name": "Pizza",
+                "price": 13.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/d39855433b4da909204b4c72f43e4d72"
+            },
+            {
+                "dish_name": "Samosas",
+                "price": 5.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/5250b1b7e351cec28a29200033eb1c64"
+            },
+            {
+                "dish_name": "Chicken Biryani",
+                "price": 12.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yiqskui4jshe80w47wr8"
+            },
+            {
+                "dish_name": "Chowmein",
+                "price": 10.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/eqgrqtfirxjo8dixigyt"
+            },
+            {
+                "dish_name": "Lasagna",
+                "price": 14.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/77fbbd5d52b72f99384815101436bb50"
+            },
+            {
+                "dish_name": "Rajma Chawal",
+                "price": 8.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cfbe130bc6159126e4ef547f2576b2a0"
+            },
+            {
+                "dish_name": "Gulab Jamun",
+                "price": 3.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/njafa5jhcczltmpubzrd"
+            },
+            {
+                "dish_name": "Manchurian",
+                "price": 11.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xseekk63caba17zsluct"
+            },
+            {
+                "dish_name": "Tiramisu",
+                "price": 6.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/58dcbde3ba09dbbd1cfaee879325f1cb"
+            },
+            {
+                "dish_name": "Aloo Paratha",
+                "price": 7.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/de3ec47a85e62e77cfa98a9ed7e8fb7d"
+            },
+            {
+                "dish_name": "Chilli Chicken",
+                "price": 15.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/92fc0618dd7f88d5c3a3e82ceb6a4b8a"
+            },
+            {
+                "dish_name": "Alfredo",
+                "price": 12.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/0a117c5364c7db1de4f3038ebf3df7e6"
+            },
+            {
+                "dish_name": "Chana Masala",
+                "price": 10.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ctpmmrqxaonrphtrim0v"
+            },
+            {
+                "dish_name": "Garlic Naan",
+                "price": 3.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/aaa21f455d33027198a5462dd16d5426"
+            },
+            {
+                "dish_name": "Vegetable Biryani",
+                "price": 11.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/aaa21f455d33027198a5462dd16d5426"
+            },
+            {
+                "dish_name": "Spring Rolls",
+                "price": 8.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/dxice2mzlslpkhmciv6v"
+            }
+        ]
+    }
+}
