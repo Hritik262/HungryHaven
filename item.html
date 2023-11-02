@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/menu.css">
-    <script src="menu.js"></script>
+    <link rel="stylesheet" href="./css/item.css">
+
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital@1&display=swap" rel="stylesheet">
-    <title>Document</title>
     <link rel="shortcut icon" href="img/logo.png">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand title" href="index.html">HungryHaven</a>
+            <a class="navbar-brand title" href="index.html">HungryHaven</a> <!-- Updated this line -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -55,51 +55,18 @@
             </div>
         </div>
     </nav>
-    <div class="menu-home">
-        <div id="home-container">
-            <div id="text">
-                <h6>Special Combo Pack</h5>
-                    <h3 class="sub-title">Today's Special Pizza Menu</h3>
-                    <p>"Experience the rich and flavorful cuisine of North India at our restaurant, where authentic
-                        spices and traditional recipes come together to tantalize your taste buds."
-                    </p>
-            </div>
-            <div class="image">
-                <img src="./img/menuBgPizza.png" alt="">
-            </div>
-        </div>
+    <div id="home-image">
+        <img src="https://marketplace.foodotawp.com/wp-content/uploads/2021/05/top-banner_.png" alt="">
     </div>
-    <div class="delicious">
-        <div class="heading">
-            <h6 class="sub-title">Super Delicious</h6>
-            <h1>Super Delicious Deal</h1>
-            <div id="menu-container">
-                <!-- Menu cards will be added here -->
-            </div>
+
+    <div class="super-category">
+        <div id="menu-container">
+            <!-- Items will be displayed here -->
+
         </div>
     </div>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Variable to store the selected restaurant ID
-            let selectedRestaurantId;
-
-            // Function to handle the restaurant name link click
-            function restaurantNameClick(event) {
-                event.preventDefault(); // Prevent the default link behavior
-                const link = event.target;
-                const url = new URL(link.href);
-                selectedRestaurantId = url.searchParams.get("restaurant_id");
-                // You can perform other actions here if needed
-            }
-
-            // Add a click event listener to all restaurant name links
-            const restaurantNameLinks = document.querySelectorAll(".rest-name a");
-            restaurantNameLinks.forEach((link) => {
-                link.addEventListener("click", restaurantNameClick);
-            });
-        });
-    </script>
+    <script src="item.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -6,7 +6,10 @@
     display: flex;
     align-items: center;
 }
-
+.title{
+    font-family: 'amaranth';
+    font-size: larger;
+}
 .navbar-brand img {
     height: 50px;
     width: auto;
