@@ -1,0 +1,578 @@
+{
+    "1": {
+        "restaurant_name": "Spice Palace",
+        "image_source": "https://example.com/spicepalace.jpg",
+        "price_range": "$$",
+        "cuisine_type": "North Indian",
+        "menu": [
+            {
+                "dish_name": "Butter Chicken",
+                "category": "Chicken",
+                "price": 14.99,
+                "image_source": "img/butterChicken.webp",
+                "isVeg": false,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Aloo Gobi",
+                "category": "Vegetarian",
+                "price": 11.99,
+                "image_source": "img/aaloGobi.webp",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Paneer Tikka",
+                "category": "Vegetarian",
+                "price": 10.99,
+                "image_source": "img/paneerTikka.webp",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Malai Kofta",
+                "category": "Vegetarian",
+                "price": 12.99,
+                "image_source": "img/malaiKofta.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Chicken Tikka",
+                "category": "Chicken",
+                "price": 15.99,
+                "image_source": "img/chickenTikkaMasala.webp",
+                "isVeg": false,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Vegetable Biryani",
+                "category": "Vegetarian",
+                "price": 12.99,
+                "image_source": "img/vegBiryani.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Tandoori Roti",
+                "category": "Vegetarian",
+                "price": 2.99,
+                "image_source": "img/tandooriRoti.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Samosas",
+                "category": "Vegetarian",
+                "price": 5.99,
+                "image_source": "img/samosa.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Dal Makhani",
+                "category": "Vegetarian",
+                "price": 9.99,
+                "image_source": "img/dalMakhni.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Chana Masala",
+                "category": "Vegetarian",
+                "price": 10.99,
+                "image_source": "img/chanaMasala.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Rogan Josh",
+                "category": "Chicken",
+                "price": 16.99,
+                "image_source": "img/roganJosh.jpeg",
+                "isVeg": false,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Naan",
+                "category": "Vegetarian",
+                "price": 2.99,
+                "image_source": "img/naan.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Mango Lassi",
+                "category": "Beverage",
+                "price": 4.99,
+                "image_source": "img/mangoLassi.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Gulab Jamun",
+                "category": "Dessert",
+                "price": 3.99,
+                "image_source": "img/gulabJamun.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Pakoras",
+                "category": "Vegetarian",
+                "price": 6.99,
+                "image_source": "img/pakora.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Tandoori Salmon",
+                "category": "Seafood",
+                "price": 18.99,
+                "image_source": "img/tandooriSalmon.jpeg",
+                "isVeg": false,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Baingan Bharta",
+                "category": "Vegetarian",
+                "price": 10.99,
+                "image_source": "img/bainganBharta.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Mutton Biryani",
+                "category": "Non-Vegetarian",
+                "price": 17.99,
+                "image_source": "img/muttonBiryani.jpeg",
+                "isVeg": false,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Pulao Rice",
+                "category": "Vegetarian",
+                "price": 8.99,
+                "image_source": "img/pulaoRice.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Papadums",
+                "category": "Vegetarian",
+                "price": 2.99,
+                "image_source": "img/papadums.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            },
+            {
+                "dish_name": "Raita",
+                "category": "Vegetarian",
+                "price": 3.99,
+                "image_source": "img/raita.jpeg",
+                "isVeg": true,
+                "restaurant_name": "Spice Palace"
+            }
+        ]
+    },
+    "2": {
+        "restaurant_name": "Taste Of India",
+        "image_source": "https://example.com/tasteofindia.jpg",
+        "price_range": "$$",
+        "cuisine_type": "Indian, Chinese, Italian",
+        "menu": [
+            {
+                "dish_name": "Butter Chicken",
+                "category": "Chicken",
+                "price": 14.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ds4jg6qnsxx76euaengi",
+                "restaurant_name": "Taste Of India",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Paneer Tikka",
+                "category": "Indian",
+                "price": 10.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/a19b443af1f23cb3317c82648a66f954",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Manchurian",
+                "category": "Chinese",
+                "price": 15.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/078a6fab9467a46ec14fe524fa28f3ab",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Hakka Noodles",
+                "category": "Chinese",
+                "price": 12.99,
+                "image_source": "img/chanaMasala.jpeg",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Pizza",
+                "category": "Pizza",
+                "price": 13.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/d39855433b4da909204b4c72f43e4d72",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Samosas",
+                "category": "Indian",
+                "price": 5.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/5250b1b7e351cec28a29200033eb1c64",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Chicken Biryani",
+                "category": "Chicken",
+                "price": 12.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/yiqskui4jshe80w47wr8",
+                "restaurant_name": "Taste Of India",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Chowmein",
+                "category": "Chinese",
+                "price": 10.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/eqgrqtfirxjo8dixigyt",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Lasagna",
+                "category": "Italian",
+                "price": 14.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/77fbbd5d52b72f99384815101436bb50",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Rajma Chawal",
+                "category": "Indian",
+                "price": 8.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/cfbe130bc6159126e4ef547f2576b2a0",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Gulab Jamun",
+                "category": "Dessert",
+                "price": 3.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/njafa5jhcczltmpubzrd",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Manchurian",
+                "category": "Chinese",
+                "price": 11.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/xseekk63caba17zsluct",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Tiramisu",
+                "category": "Dessert",
+                "price": 6.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/58dcbde3ba09dbbd1cfaee879325f1cb",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Aloo Paratha",
+                "category": "Indian",
+                "price": 7.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/de3ec47a85e62e77cfa98a9ed7e8fb7d",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Chilli Chicken",
+                "category": "Chicken",
+                "price": 15.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/92fc0618dd7f88d5c3a3e82ceb6a4b8a",
+                "restaurant_name": "Taste Of India",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Alfredo",
+                "category": "Italian",
+                "price": 12.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/0a117c5364c7db1de4f3038ebf3df7e6",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Chana Masala",
+                "category": "Indian",
+                "price": 10.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/ctpmmrqxaonrphtrim0v",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Garlic Naan",
+                "category": "Indian",
+                "price": 3.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/aaa21f455d33027198a5462dd16d5426",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Vegetable Biryani",
+                "category": "Indian",
+                "price": 11.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/aaa21f455d33027198a5462dd16d5426",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Spring Rolls",
+                "category": "Chinese",
+                "price": 8.99,
+                "image_source": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/dxice2mzlslpkhmciv6v",
+                "restaurant_name": "Taste Of India",
+                "isVeg": true
+            }
+        ]
+    },
+    "3": {
+        "restaurant_name": "Delightful Bites",
+        "image_source": "https://example.com/delightfulbites.jpg",
+        "price_range": "$$",
+        "cuisine_type": "Multi-Cuisine",
+        "menu": [
+            {
+                "dish_name": "Margherita Pizza",
+                "category": "Pizza",
+                "price": 12.99,
+                "image_source": "https://example.com/margheritapizza.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Gulab Jamun",
+                "category": "Dessert",
+                "price": 4.99,
+                "image_source": "https://example.com/gulabjamun.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Butter Chicken",
+                "category": "Chicken",
+                "price": 15.99,
+                "image_source": "https://example.com/butterchicken.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Veggie Burger",
+                "category": "Burger",
+                "price": 8.99,
+                "image_source": "https://example.com/veggieburger.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Chocolate Shake",
+                "category": "Shakes",
+                "price": 6.99,
+                "image_source": "https://example.com/chocolateshake.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Spaghetti Carbonara",
+                "category": "Pasta",
+                "price": 14.99,
+                "image_source": "https://example.com/spaghetticarbonara.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Tiramisu",
+                "category": "Dessert",
+                "price": 7.99,
+                "image_source": "https://example.com/tiramisu.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Club Sandwich",
+                "category": "Sandwich",
+                "price": 10.99,
+                "image_source": "https://example.com/clubsandwich.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Pepperoni Pizza",
+                "category": "Pizza",
+                "price": 13.99,
+                "image_source": "https://example.com/pepperonipizza.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Rasgulla",
+                "category": "Dessert",
+                "price": 5.99,
+                "image_source": "https://example.com/rasgulla.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Fried Chicken",
+                "category": "Chicken",
+                "price": 12.99,
+                "image_source": "https://example.com/friedchicken.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Cheeseburger",
+                "category": "Burger",
+                "price": 9.99,
+                "image_source": "https://example.com/cheeseburger.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Mango Lassi",
+                "category": "Shakes",
+                "price": 4.99,
+                "image_source": "https://example.com/mangolassi.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Pasta Primavera",
+                "category": "Pasta",
+                "price": 12.99,
+                "image_source": "https://example.com/pastaprimavera.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Vanilla Ice Cream",
+                "category": "Dessert",
+                "price": 3.99,
+                "image_source": "https://example.com/vanilla.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Veggie Wrap",
+                "category": "Sandwich",
+                "price": 8.99,
+                "image_source": "https://example.com/veggiewrap.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Pepper Steak",
+                "category": "Chicken",
+                "price": 16.99,
+                "image_source": "https://example.com/peppersteak.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Paneer Tikka",
+                "category": "Indian",
+                "price": 11.99,
+                "image_source": "https://example.com/paneertikka.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Ramen Noodles",
+                "category": "Chinese",
+                "price": 10.99,
+                "image_source": "https://example.com/ramennoodles.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Pineapple Fried Rice",
+                "category": "Chinese",
+                "price": 9.99,
+                "image_source": "https://example.com/pineapplefriedrice.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Paneer Tikka Masala",
+                "category": "Indian",
+                "price": 11.99,
+                "image_source": "https://example.com/paneertikkamasala.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Chicken Fried Rice",
+                "category": "Chinese",
+                "price": 14.99,
+                "image_source": "https://example.com/chickenfriedrice.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Chocolate Brownie",
+                "category": "Dessert",
+                "price": 5.99,
+                "image_source": "https://example.com/chocolatebrownie.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Fish Tacos",
+                "category": "Seafood",
+                "price": 15.99,
+                "image_source": "https://example.com/fishtacos.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Mushroom Risotto",
+                "category": "Italian",
+                "price": 12.99,
+                "image_source": "https://example.com/mushroomrisotto.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Hawaiian Pizza",
+                "category": "Pizza",
+                "price": 13.99,
+                "image_source": "https://example.com/hawaiianpizza.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": false
+            },
+            {
+                "dish_name": "Paneer Makhani",
+                "category": "Indian",
+                "price": 10.99,
+                "image_source": "https://example.com/paneermakhani.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            },
+            {
+                "dish_name": "Caramel Flan",
+                "category": "Dessert",
+                "price": 6.99,
+                "image_source": "https://example.com/caramelflan.jpg",
+                "restaurant_name": "Delightful Bites",
+                "isVeg": true
+            }
+        ]
+    }
+}

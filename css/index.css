@@ -12,6 +12,10 @@
     display: flex;
     align-items: center;
 }
+.title{
+    font-family: 'amaranth';
+    font-size: larger;
+}
 
 .navbar-brand img {
     height: 50px;
@@ -59,6 +63,7 @@
     justify-content: flex-start;
     color: white;
     height: 80vh;
+    height: auto;
     width: 30vw;
 }
 
@@ -138,14 +143,15 @@
 }
 
 .restaraunt {
+    display: flex;
+    
     position: relative;
 }
-
-.home .restaraunt h5 {
+.content h5{
     display: block;
     font-size: 22px;
     color: #ffffff;
-    margin-bottom: 23px;
+    margin: -20vh;
     font-weight: 600;
 }
 
@@ -164,28 +170,6 @@
     /* background-color: #708bd2; */
 }
 
-.heading-minimal .bottom-dots ::after {
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 100%;
-    margin-left: -25px;
-}
-
-.bottom-dots .dot ::after {
-    position: relative;
-    display: block;
-    float: left;
-    width: 3px;
-    height: 3px;
-    border-right: 3px solid #FFCC00;
-    margin-right: 3px;
-}
-
-.clearfix {
-    clear: both;
-}
-
 .top-food .categories {
     justify-content: center;
     align-items: center;
@@ -199,15 +183,18 @@
 }
 
 .categories .item .img {
-    height: 160px;
+    height: 16vh;
     margin: auto;
-    display: block;
+    /* display: block; */
+}
+.item .tf-text{
+    padding-top: 1vh;
 }
 
 /* top-restaurant */
 
 .top-restaurant {
-    background-color: rgb(243, 242, 240);
+    background-color: #f2f2f2;
 }
 
 .top-restaurant .heading {
@@ -240,8 +227,8 @@
     gap: 3%;
 }
 .card:hover{
-    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
 }
 
@@ -252,6 +239,14 @@
 
 .card .res-text {
     padding: 2%;
+}
+a{
+    text-decoration: none;
+    color: #231900;
+}
+a:hover{
+    text-decoration: none;
+    color: #231900;
 }
 
 .food-cat {
@@ -272,6 +267,10 @@
     color: rgb(69, 68, 68);
     margin: 2%;
     padding: 1.5%;
+
+}
+.food-cat .cat-names a:hover{
+    background-color: #FFCC00;
 
 }
 
@@ -324,6 +323,44 @@ hr {
 .detail .address {
     width: auto;
     color: rgb(69, 68, 68);
+}
+
+/* super delicious category */
+
+.super-category{
+    width: 100;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sd-card{
+    border: solid rgb(243, 242, 240) 0.7px;
+    width: 340px;
+    height: auto;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 3%;
+}
+.sd-card:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.sd-text{
+    padding: 2vh;
+    
+}
+#desc{
+    font-size: smaller;
+    color: #757575;
+}
+strike{
+    color: black;
+    font-size: smaller;
 }
 
 .center {
