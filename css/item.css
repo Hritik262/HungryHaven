@@ -71,7 +71,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
     flex-wrap: wrap;
 }
 .sd-card{
@@ -84,20 +83,25 @@
     flex-wrap: wrap;
     align-items: flex-start;
     text-align: left;
+    transition: transform 0.3s ease;
 }
 
 .sd-card:hover{
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transform: scale(1.05);
 }
 
 .sd-text{
-    padding: 2vh;    
+    padding: 2vh; 
+    transition: background-color 0.3s ease;   
 }
+
 p{
     font-size: medium;
     color: black;
 }
+
 .sub-title{
     color: #FFCC00
 }

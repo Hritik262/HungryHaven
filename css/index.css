@@ -1,9 +1,10 @@
-@media (min-width: 768px) and (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 768px) and (min-width: 992px) and (max-width: 1199px) {
 
     .home {
         background-color: #231900;
     }
 }
+
 /* Combined CSS for a navigation bar with transparency */
 .navbar {
     background-color: rgba(51, 51, 51, 0.5);
@@ -12,7 +13,8 @@
     display: flex;
     align-items: center;
 }
-.title{
+
+.title {
     font-family: 'amaranth';
     font-size: larger;
 }
@@ -144,10 +146,11 @@
 
 .restaraunt {
     display: flex;
-    
+
     position: relative;
 }
-.content h5{
+
+.content h5 {
     display: block;
     font-size: 22px;
     color: #ffffff;
@@ -156,10 +159,99 @@
 }
 
 .restaraunt a img {
-   
+
     width: 60px !important;
     height: 60px !important;
     padding: 2px;
+}
+
+
+/* Small screens (up to 768px) */
+@media (max-width: 768px) {
+    .home {
+        padding: 20px;
+        background-position: center;
+        background-size: auto;
+    }
+
+    #content {
+        margin-top: 10vh;
+        width: 100%;
+    }
+
+    #content .h-primary {
+        font-size: 24px;
+    }
+
+    .search_wrap {
+        width: 100%;
+    }
+
+    .search_wrap .search_box .input {
+        width: 80%;
+    }
+
+    .search_wrap .search_box .btn {
+        width: 20%;
+    }
+
+    .restaraunt a img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
+
+/* Medium screens (769px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .home {
+        padding: 20px 100px;
+    }
+
+    .search_wrap .search_box .input {
+        width: 70%;
+    }
+
+    .search_wrap .search_box .btn {
+        width: 30%;
+    }
+}
+
+/*(up to 768px) */
+@media (max-width: 768px) {
+    .search_wrap {
+        width: 100%;
+        text-align: center;
+    }
+
+    .search_wrap .search_box {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .search_wrap .search_box .input {
+        width: 70%;
+        padding: 10px;
+    }
+
+    .search_wrap .search_box .btn {
+        width: 20%;
+        padding: 10px 0;
+    }
+}
+
+/*(769px - 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .search_wrap .search_box .input {
+        width: 60%;
+    }
+
+    .search_wrap .search_box .btn {
+        width: 40%;
+        padding: 10px 0;
+    }
 }
 
 /* Food Section */
@@ -187,9 +279,28 @@
     margin: auto;
     /* display: block; */
 }
-.item .tf-text{
+
+.item .tf-text {
     padding-top: 1vh;
 }
+.top-food .categories .item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.top-food .categories .item .tf-text {
+    animation: fadeIn 0.5s ease both;
+}
+
+
 
 /* top-restaurant */
 
@@ -226,10 +337,13 @@
     align-items: flex-start;
     gap: 3%;
 }
-.card:hover{
+
+.card:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+    transform: scale(1.05);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .card img {
@@ -240,11 +354,13 @@
 .card .res-text {
     padding: 2%;
 }
-a{
+
+a {
     text-decoration: none;
     color: #231900;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
     color: #231900;
 }
@@ -269,7 +385,8 @@ a:hover{
     padding: 1.5%;
 
 }
-.food-cat .cat-names a:hover{
+
+.food-cat .cat-names a:hover {
     background-color: #FFCC00;
 
 }
@@ -293,30 +410,38 @@ hr {
     margin: 2%;
     display: flex;
     justify-content: space-between;
+    transition: transform 0.3s ease;
 }
-
+.rest-detail:hover {
+    transform: translateX(10px);
+}
 .rest-detail img {
     height: 7vh;
     width: 7vh;
 }
-.rest .detail{
+
+.rest .detail {
     height: auto;
     width: auto;
-    margin-left: 15%;    
+    margin-left: 15%;
     align-items: flex-start;
     justify-content: flex-start;
+    transition: transform 0.3s ease;
 }
-
-.detail{
+.rest .detail:hover {
+    transform: translateX(10px);
+}
+.detail {
     font-size: 100%;
     width: auto;
     height: fit-content;
     display: flex;
     column-gap: 2%;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
+
 .detail .time {
-    
+
     color: red;
 }
 
@@ -327,7 +452,7 @@ hr {
 
 /* super delicious category */
 
-.super-category{
+.super-category {
     width: 100;
     height: auto;
     display: flex;
@@ -335,7 +460,8 @@ hr {
     align-items: center;
     flex-wrap: wrap;
 }
-.sd-card{
+
+.sd-card {
     border: solid rgb(243, 242, 240) 0.7px;
     width: 340px;
     height: auto;
@@ -345,20 +471,35 @@ hr {
     align-items: flex-start;
     text-align: left;
     gap: 3%;
+    transition: transform 0.3s ease;
 }
-.sd-card:hover{
+
+.sd-card:hover {
     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transform: scale(1.05);
 }
-.sd-text{
+
+.sd-text {
     padding: 2vh;
-    
+    transition: background-color 0.3s ease;
 }
-#desc{
+
+#desc {
     font-size: smaller;
     color: #757575;
 }
-strike{
+
+.img img {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.img img:hover {
+    opacity: 1;
+}
+
+strike {
     color: black;
     font-size: smaller;
 }
