@@ -41,6 +41,8 @@
 }
 #home-image{
     display: flex;
+    height: auto;
+    width: auto;
     justify-content: center;
     margin: 5%;
 }
