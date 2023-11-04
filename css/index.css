@@ -449,6 +449,39 @@ hr {
     width: auto;
     color: rgb(69, 68, 68);
 }
+.hidden{
+    opacity: 0;
+    filter:blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter:blur(0);
+    transform: translateX(0);
+}
+.card:nth-child(2){
+    transition-delay: 200ms;
+}
+.card:nth-child(3){
+    transition-delay: 400ms;
+}
+.card:nth-child(4){
+    transition-delay: 600ms;
+}
+.card:nth-child(5){
+    transition-delay: 800ms;
+}
+.card:nth-child(6){
+    transition-delay: 1000ms;
+}
+.card:nth-child(7){
+    transition-delay: 1200ms;
+}
+.card:nth-child(8){
+    transition-delay: 1400ms;
+}
 
 /* super delicious category */
 
@@ -502,6 +535,19 @@ hr {
 strike {
     color: black;
     font-size: smaller;
+}
+
+.sd-card:nth-child(2){
+    transition-delay: 200ms;
+}
+.sd-card:nth-child(3){
+    transition-delay: 400ms;
+}
+.sd-card:nth-child(4){
+    transition-delay: 600ms;
+}
+.sd-card:nth-child(5){
+    transition-delay: 800ms;
 }
 
 .center {
