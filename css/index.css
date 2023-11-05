@@ -550,6 +550,20 @@ strike {
     transition-delay: 800ms;
 }
 
+/* footer */
+.footer{
+    width: 100%;
+    background-color: #b1cdda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
+.p-footer{
+    font-family: nunito;
+    color: #757575;
+}
+
 .center {
     text-align: center;
 }
