@@ -21,3 +21,10 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+// Loading effect
+
+var preloader = document.getElementById('loading');
+function myLoader(){
+    preloader.style.display = 'none';
+}
