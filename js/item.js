@@ -1,5 +1,5 @@
+// Function to extract query parameters from the URL
 document.addEventListener("DOMContentLoaded", function () {
-    // Function to extract query parameters from the URL
     function getQueryParam(name) {
         const url = new URL(window.location.href);
         return url.searchParams.get(name);
@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to create a menu card based on the template
     function createMenuCard(dish) {
-        // Create the menu card as per the template
         const menuCard = document.createElement("div");
         menuCard.classList.add("sd-card");
 
@@ -48,12 +47,12 @@ document.addEventListener("DOMContentLoaded", function () {
         return menuCard;
     }
 
-    // Function to display menu cards for the selected category
+    // Function to display menu cards 
     function displayMenu(selectedCategory) {
         const menuContainer = document.getElementById("menu-container");
 
         if (menuContainer) {
-            // Fetch the JSON data from "restaurant.json"
+            // Fetch the JSON data
             fetch("restaurant.json")
                 .then((response) => response.json())
                 .then((jsonData) => {

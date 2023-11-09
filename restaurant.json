@@ -654,7 +654,7 @@
             },
             {
                 "dish_name": "Chicken Biryani",
-                "category": "Indian",
+                "category": "Chicken",
                 "price": 1079.99,
                 "image_source": "img/chickenBiryani.jpeg",
                 "isVeg": false,
